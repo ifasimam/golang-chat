@@ -1,20 +1,16 @@
-# Chat Example
+# Edu Chat 
 
-This application shows how to use use the
+This documents shows how to use the
 [websocket](https://github.com/gorilla/websocket) package and
 [jQuery](http://jquery.com) to implement a simple web chat application.
 
-## Running the example
+## Version of project
 
-The example requires a working Go development environment. The [Getting
-Started](http://golang.org/doc/install) page describes how to install the
-development environment.
+- combine.go merupakan kombinasi ketiga file conn.go, hub.go, main.go .
+- Editing pada home.html, silahkan restore ke file origin dari gorilla websocket di github.com/gorilla/websocket/examples/chat
 
-Once you have Go up and running, you can download, build and run the example
-using the following commands.
+for running the project, use this command below :
 
-    $ go get github.com/gorilla/websocket
-    $ cd `go list -f '{{.Dir}}' github.com/gorilla/websocket/examples/chat`
-    $ go run *.go
+    $ go run combine.go
 
 To use the chat example, open http://localhost:8080/ in your browser.
